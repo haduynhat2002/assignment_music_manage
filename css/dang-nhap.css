@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
+}
+#logo {
+    text-align: center;
+    margin-top: 10px;
+}
+img {
+    border-radius: 50%;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+#menu {
+    width: 369px;
+    margin: 106px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eae8e8;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+input.taikhoan-matkhau {
+    width: 92%;
+    padding: 10px 10px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 1px solid #383636;
+    display: inline-block;
+    border-radius: 4px;
+}
+input[type=button] {
+    padding: 13px 135px;
+    margin: 10px 12px;
+    background-color: #00299e;
+    color: #fffffb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #254cc1;
+}
+a.button {
+    text-decoration: none;
+    color: white;
+}
+a.sign-up{
+    margin-left: 65px;
+}

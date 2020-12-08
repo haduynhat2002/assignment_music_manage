@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+#menu {
+    width: 433px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 17px;
+    background-color: #d6d6d6;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+p {
+    margin: 15px 151px;
+    font-size: 28px;
+}
+input.hoTen {
+    display: inline-block;
+    width: 171px;
+    padding: 10px 11px;
+    border: 1px solid;
+}
+input.password-address-phone-avatar-email {
+    display: block;
+    margin: 15px 0;
+    width: 374px;
+    padding: 10px 10px;
+    border: 1px solid;
+}
+input.ngay-sinh {
+    display: inline-block;
+    width: 26%;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 5px;
+    border: 1px solid;
+}
+input {
+    border-radius: 4px;
+}
+.gioi-tinh {
+    display: inline-block;
+    width: 26%;
+    padding: 7px 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: white;
+}
+input.nut-click {
+    margin-left: 45px;
+}
+.btn-signup {
+    width: 85%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #49ea31;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #282727;
+    cursor: pointer;
+}
+.btn-signup:hover {
+    background-color: #5be75b;
+}
+.lb-block {
+    display: block;
+}

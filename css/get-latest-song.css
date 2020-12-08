@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+    background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
+}
+.dong1 {
+    margin: 10px 195px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(#dedede, #292929);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.dong2 {
+    margin: 10px 180px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.logo {
+    display: inline-block;
+    margin-left: 15px;
+}
+.logo img {
+    border-radius: 50%;
+}
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 44px 29px;
+}
+.bai-hat {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #cecece, #333333);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.bai-hat:hover {
+    background-image: linear-gradient(to right, #cecece, #5a5959);
+
+}
+.thu-tu {
+    display: inline-block;
+    vertical-align: top;
+    padding: 34px 10px;
+    margin-top: 13px;
+    font-size: 25px;
+}
+.avatar {
+    display: inline-block;
+    margin-top: 13px;
+}
+.thong-tin-bai-hat {
+    vertical-align: top;
+    display: inline-block;
+}
+.ten-bai-hat {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.ten-ca-si {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 425px;
+}
+.tac-gia {
+    margin-left: 15px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+.chi-tiet {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+audio {
+    float: right;
+    width: 320px;
+    display: inline-block;
+    height: 45px;
+}
