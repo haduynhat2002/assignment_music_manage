@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5e38b10-b84f-47d7-a903-15352c8dd3cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/member.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/member.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dang-ky.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dang-ky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/member.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lOM8JM7Xr1J7xIL5CUmYNvSqJo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5e38b10-b84f-47d7-a903-15352c8dd3cd" name="Default Changelist" comment="" />
+      <created>1607463523495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607463523495</updated>
+      <workItem from="1607463524955" duration="3150000" />
+      <workItem from="1607479792918" duration="1568000" />
+      <workItem from="1607505598236" duration="331000" />
+      <workItem from="1607508701470" duration="6081000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
