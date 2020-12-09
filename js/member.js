@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('avatar').innerHTML = responseJsonObject.avatar;
             document.getElementById('phone').innerHTML = responseJsonObject.phone;
             document.getElementById('address').innerHTML = responseJsonObject.address;
-            document.getElementById('introduction').innerHTML = responseJsonObject.introduction;
             document.getElementById('gender').innerHTML = responseJsonObject.gender;
             document.getElementById('birthday').innerHTML = responseJsonObject.birthday;
             document.getElementById('email').innerHTML = responseJsonObject.email;
@@ -29,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('createdat').innerHTML = responseJsonObject.createdAt;
             document.getElementById('updatedat').innerHTML = responseJsonObject.updatedAt;
             document.getElementById('status').innerHTML = responseJsonObject.status;
-            if (responseJsonObject.itrduction != null) {
-                document.getElementById("intro").innerHTML = responseJsonObject.itrduction;
+            if (responseJsonObject.introduction != null) {
+                document.getElementById("intro").innerHTML = responseJsonObject.introduction;
             } else {
                 document.getElementById("intro").innerHTML = "NULL";
             }
