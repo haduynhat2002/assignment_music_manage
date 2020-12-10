@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 'email': txtEmail.value,
                 'birthday': birthDay,
             }
-            alert(registerDataObj.birthday);
             var registerDataJson = JSON.stringify(registerDataObj);
 
             var xhr = new XMLHttpRequest();
