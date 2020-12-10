@@ -62,9 +62,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     alert("Dang ky khong thanh cong!");
                 }
             }
-
-            xhr.open('POST', API_DOMAIN + REGISTER_API_URL, false);
-            xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
             xhr.send(registerDataJson);
         }
     }
