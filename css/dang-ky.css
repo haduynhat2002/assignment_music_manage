@@ -3,7 +3,7 @@ body {
     background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
     background-position: center top;
     background-repeat: no-repeat;
-
+    background-attachment: fixed;
 }
 #menu {
     width: 433px;

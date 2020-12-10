@@ -2,6 +2,9 @@ body {
     margin: 0;
     background-color: #e3e0e0;
     background-image: url("../image/music-159867_960_720.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .img img {
