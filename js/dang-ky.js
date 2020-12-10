@@ -48,10 +48,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 'email': txtEmail.value,
                 'birthday': birthDay,
             }
- //alert(registerDataObj.email);
+            alert(registerDataObj.birthday);
             var registerDataJson = JSON.stringify(registerDataObj);
 
             var xhr = new XMLHttpRequest();
+            xhr.open('POST', API_DOMAIN + REGISTER_API_URL, false);
+            xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 201) {
                     var responseData = JSON.parse(this.responseText);
@@ -61,8 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
 
-            xhr.open('POST', API_DOMAIN + REGISTER_API_URL, false);
-            xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
+
             xhr.send(registerDataJson);
         }
     }
