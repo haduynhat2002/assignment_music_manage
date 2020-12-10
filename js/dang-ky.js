@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     alert("Dang ky thanh cong!");
                     window.location = "dang-nhap.html";
                 } else {
-                    alert("Dang ky khong thanh cong!");
+                    alert("Dang ky that bai!");
                 }
             }
             xhr.send(registerDataJson);
