@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/create-song.css">
+    <script>
+        var token = localStorage.getItem('dang-nhap-thanh-cong');
+        //kiểm tra nếu khác null.
+        if (token == null) {
+            alert('chưa đăng nhập hệ thống.');
+            //đưa về trang đăng nhập.
+            window.location = 'login.md.html';
+        }
+    </script>
 </head>
 <body>
 <div id="tong">
-    <form>
+    <form action="" name="add-songs">
         <h1>Thêm Bài Hát</h1>
         <label>Name:</label>
         <input type="text" class="thong-tin-bai-hat" name="name" placeholder="Name">
@@ -19,7 +28,7 @@
         <input type="text" class="thong-tin-bai-hat" name="thumbnail" placeholder="Thumbnail">
         <label>Link:</label>
         <input type="text" class="thong-tin-bai-hat" name="link" placeholder="Link">
-        <button class="gui">Gửi</button>
+        <button class="gui" name="btn-button">Gửi</button>
     </form>
 </div>
 </body>
