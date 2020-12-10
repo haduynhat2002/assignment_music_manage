@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
             xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 201) {
-                    var responseData = JSON.parse(this.responseText);
+                    // var responseData = JSON.parse(this.responseText);
+                    alert("Dang ky thanh cong!");
                     window.location = "dang-nhap.html";
                 } else {
                     alert("Dang ky khong thanh cong!");
