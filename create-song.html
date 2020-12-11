@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Add song</title>
     <link rel="stylesheet" href="css/create-song.css">
     <script>
         var token = localStorage.getItem('dang-nhap-thanh-cong');
-        //kiểm tra nếu khác null.
+
         if (token == null) {
             alert('chưa đăng nhập hệ thống.');
             //đưa về trang đăng nhập.
@@ -17,7 +17,7 @@
 <body>
 <div id="tong">
     <form action="" name="add-songs">
-        <h1>Thêm Bài Hát</h1>
+        <h1>Add Songs</h1>
         <label>Name:</label>
         <input type="text" class="thong-tin-bai-hat" name="name" placeholder="Name">
         <label>Singer:</label>
@@ -28,7 +28,7 @@
         <input type="text" class="thong-tin-bai-hat" name="thumbnail" placeholder="Thumbnail">
         <label>Link:</label>
         <input type="text" class="thong-tin-bai-hat" name="link" placeholder="Link">
-        <button class="gui" name="btn-button">Gửi</button>
+        <button type="button" class="gui" name="btn-button">Add Songs</button>
     </form>
 </div>
 </body>

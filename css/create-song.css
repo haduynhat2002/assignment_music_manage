@@ -1,6 +1,9 @@
 body {
     margin: 0;
     background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #tong {
     width: 433px;

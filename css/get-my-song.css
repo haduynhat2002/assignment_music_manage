@@ -2,6 +2,9 @@ body {
     margin: 0;
     background-color: #e0e0e0;
     background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .dong1 {
     margin: 10px 195px;
@@ -10,6 +13,20 @@ body {
     border-radius: 8px;
     background-image: linear-gradient(#dedede, #292929);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.menu {
+    float: right;
+    margin: 52px 20px;
+
+}
+a {
+    font-size: 18px;
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #2020f3;
 }
 .dong2 {
     margin: 10px 180px;

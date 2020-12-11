@@ -4,8 +4,19 @@
     <list default="true" id="a5e38b10-b84f-47d7-a903-15352c8dd3cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/create-song.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/create-song.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/create-song.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dang-nhap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dang-nhap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/get-latest-song.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/get-latest-song.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/get-my-song.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/get-my-song.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/member.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/member.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/dang-ky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dang-nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/dang-nhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-latest-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-latest-song.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get-my-song.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-my-song.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/dang-ky.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dang-ky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/create-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/create-song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/get-latest-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/get-latest-song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/get-my-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/get-my-song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/member.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +57,9 @@
       <workItem from="1607505598236" duration="331000" />
       <workItem from="1607508701470" duration="17479000" />
       <workItem from="1607534595925" duration="1589000" />
-      <workItem from="1607575077757" duration="14136000" />
+      <workItem from="1607575077757" duration="25470000" />
+      <workItem from="1607649827727" duration="1655000" />
+      <workItem from="1607689084184" duration="4956000" />
     </task>
     <servers />
   </component>

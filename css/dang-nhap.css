@@ -1,6 +1,9 @@
 body {
     margin: 0;
     background-image: url("../image/hinh-nen-may-tinh-hd-dep-2018-41.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #logo {
     text-align: center;
@@ -50,6 +53,6 @@ a.button {
     text-decoration: none;
     color: white;
 }
-span.sign-up{
+span.sign-in{
     margin-left: 65px;
 }

@@ -1,6 +1,5 @@
-var API_DOMAIN = 'https://2-dot-backup-server-002.appspot.com';
-var ADD_SONG_API_URL = '/_api/v2/members/songs';
-
+var API_DOMAIN = 'https://2-dot-backup-server-001.appspot.com';
+var ADD_SONG_API_URL = '/_api/v2/songs';
 document.addEventListener('DOMContentLoaded', function () {
     var btnButton = document.forms['add-songs']['btn-button'];
     if (btnButton) {
@@ -17,23 +16,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 'thumbnail':txtThumbnail.value,
                 'link':txtLink.value,
             }
-
-
-            var registerDataJson = JSON.stringify(registerDataObj)
+            var registerDataJson = JSON.stringify(registerDataObj);
             var xhr = new XMLHttpRequest();
             xhr.open('POST', API_DOMAIN + ADD_SONG_API_URL, false);
-            xhr.setRequestHeader('Content-type', 'application/json; charset-UTF-8');
+            xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
             xhr.setRequestHeader('Authorization', token);
 
             xhr.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status ==201) {
-                    alert("Thêm bài hát thành công.");
-                    window.location = "get-my-song.html";
+                if (this.readyState == 4 && this.status == 201) {
+                    //var responseData = JSON.parse(this.responseText);
+                    alert("Thêm bài hát thành công!");
+                    window.location = "my-songs.html";
                 } else {
-                    alert("Thêm bài hát không thành công.");
+                    alert("Thêm bài hát không thành công!");
                 }
             }
             xhr.send(registerDataJson);
         }
     }
 })
+
